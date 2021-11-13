@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shiv Fitness</title>
+    <!-- Using google fonts or you can use defaults fonts also -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- CSS Reset -->
+    <style>
+        body {
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('img/girl.jpg');
+            background-size: cover;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .left {
+            /* border: 3px solid blue; */
+            display: inline-block;
+            position: absolute;
+            top: 8px;
+            left: 30px;
+            font-size: 21px;
+            line-height: 2em;
+        }
+
+        .left img {
+            width: 75px;
+            padding: 8px 12px;
+            margin: 0px;
+        }
+
+        .left div {
+            text-align: center;
+            line-height: 0px;
+            font-size: 25px;
+        }
+
+        .mid {
+            /* border: 3px solid red; */
+            display: block;
+            width: 40%;
+            margin: 12px auto;
+            font-size: 21px;
+        }
+
+        .right {
+            /* border: 3px solid yellow; */
+            display: inline-block;
+            position: absolute;
+            right: 33px;
+            top: 12px;
+            font-size: 21px;
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 19px;
+        }
+
+        .navbar li a:hover,.navbar li a:active {
+            color: grey;
+            text-decoration: underline;
+        }
+
+        .btn {
+            margin: 10px 1px;
+            background-color: black;
+            color: white;
+            padding: 3px 14px;
+            border-radius: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: rgb(31, 29, 29);
+        }
+
+        .container {
+            /* border: 2px solid white;  */
+            border-radius: 20px;
+            padding: 65px;
+            margin: 85px 10px;
+            width: 33%;
+        }
+
+        .form-group input {
+            display: block;
+            width: 400px;
+            margin: 9px auto;
+            padding: 4px 5px;
+            font-size: 20px;
+            text-align: center;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .container button {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            display: block;
+            width: 400px;
+            margin: 20px auto;
+            padding: 7px 9px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="left">
+            <img src="img/gym.png">
+            <div>
+                Shivam Fitness
+            </div>
+        </div>
+        <div class="mid">
+            <nav>
+                <ul class="navbar">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Fitness Services</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Join Now</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join best Fitness Freak Gym In Rishikesh</h1>
+        <form action="backend.php">
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <input type="number" name="" id="" placeholder="Enter Your Age">
+            </div>
+            <div class="form-group">
+                <input type="number" name="" id="" placeholder="Enter Your Phone number">
+            </div>
+            <div class="form-group">
+                <input type="email" name="" id="" placeholder="Enter Your Email">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter Your Locality">
+            </div>
+            <button class="btn">Submit</button>
+
+        </form>
+    </div>
+    </div>
+</body>
+
+</html>
